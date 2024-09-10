@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+header {
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background: #444;
+    border-radius: 5px;
+}
+
+.intro-section {
+    background: #222;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff9800;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+}
+
+.features-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #111;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    min-width: 250px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about-section {
+    padding: 50px;
+    background-color: #222;
+    text-align: center;
+}
+
+.download-section {
+    padding: 50px;
+    background-color: #111;
+    text-align: center;
+}
+
+.download-section .btn {
+    background-color: #ff9800;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 0;  /* Add margin to create spacing between buttons */
+}
+
+.download-section .btn:hover {
+    background-color: #e67e22;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+}
